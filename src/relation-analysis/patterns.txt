@@ -1,0 +1,12 @@
+(desireof "woman" "clothes")
+
+f why/WRB does/VBZ a/DT */NN crave/VBP */NN ?/. discover/NNP new/JJ 
+f is/VBZ enough/RB ,/, */NN deserves/VBZ */NN ./. nope/UH ,/, 
+f online/JJ magazine/NNP a/DT */NN deserves/VBZ */NN never/RB take/VB a/DT 
+f just/RB "/" a/DT */NN demanding/VBG */NN ./. she/PRP is/VBZ 
+f of/IN politics/NNS a/DT */NN achieves/VBZ */NN and/CC thus/RB influence/NN 
+f but/CC i/NN believe/VB */NN deserve/VBP */NN is/VBZ that/DT all/PDT 
+f loves/VBZ !/. a/DT */NN may/MD admire/VB ,/, */NN ,/, revere/NNP and/CC 
+f 16/NN a/DT kindhearted/JJ */NN gains/NNS */NN ,/, but/CC ruthless/JJ 
+
+

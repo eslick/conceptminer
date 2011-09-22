@@ -1,0 +1,57 @@
+
+Notes:
+Read AAAI paper from '06 from Rochester guy?
+
+Argument:
+ConceptNet provides triples (R P1 P2) specifying, with high probability, that P1 R P2
+  and for a given relation R, we have 100's of triples.
+Given a set of sentence contexts (or windows) that contain a P1 and P2 from a known triple,
+  we hypothesize that, in general, these provide implicit contexts that express or 
+  assume the underlying relation
+
+Goals:
+- We want to train a classifier C which, given a window with two new phrases P3 and P4
+  is able to provide an assessment of whether the relation R is expressed or not
+- We want to train a classifier C which, given a _set_ of windows with two phrases 
+  P3 and P4 discriminates whether P3 and P4 are a valid pair under relation R
+
+Complications:
+- Multiple valid R's, choosing one
+- May need many windows to determine whether R holds in general, rather than in a given
+  instance (knowledge acquisition vs. semantic extraction)
+- 
+
+
+
+Possible goals:
+- Test relation validity
+- Discover new relations
+- <phrase> causes ....
+
+Rerun analysis:
+- 
+
+Stages:
+1) Retrieve pattern examples
+2) Generalize patterns
+3) Broad reach for instances
+4) Focused mining of instances
+5) Filtering, scoring and selection
+
+Improvements:
+- Bootstrapping
+- Better ranking (recall, etc)
+
+
+Approach:
+- If a pair shows up with negation and conditionality quite
+  often, then it is likely commonsense as a common rule doesn't 
+  need expression but exceptions will.
+- Bias sample by pre-labeling windows using keyword/templates:
+  - Count negative patterns
+  - Count conditional patterns
+  - Count direct expressions
+  - Look at governing verb in events
+  - Look at noun classes
+- Reasoning:
+  - 

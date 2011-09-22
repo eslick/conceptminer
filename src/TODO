@@ -1,0 +1,137 @@
+
+WORK:
+- Fix id->token persistent map
+- Handle person terms and possessives during query gen and matching phrases
+- Filter empty concept searches
+- Analyze and filter any bad windows that arise
+
+- Develop a theory of info content in windows
+  What features are needed, how to classify
+- List of pragmatic assumptions from web text
+
+- Write up a chapter on analysis
+
+
+Extend:
+- Analyze capableof, motivationof, desireof, usedfor, effectof
+          desirouseffectof, prerequesiteeventof
+- Maybe analyze: subeventof, firstsubeventof, lastsubeventof
+- Searching for a practical theory of commonsense causality, 
+  intentions and desires/goals
+
+Bonus:
+- Extract information from educational commonsense website
+- Extract and index information from wikipedia
+
+Summer high performance hack:
+- Proper transaction support for cminer + ele
+- Handle thrown transaction messages
+- Debug startup memory issue in elephant
+- Flow control & quanta
+- Write a parallel dispatch component for searching
+- Make sure elephant threading is done right
+- Intra-image RPC for multi-CPU collection
+- Elephant remote backend
+- Elephant query language
+
+Chapter order:
+Analysis
+Evaluation methodology
+Blind Classifiers
+Pattern discovery
+Rules
+Applications
+Background intro
+Future
+Introduction
+Conclusion
+
+MP Hack:
+- Searcher/Fetchers/Taggers (G4's?)
+- Indexer (G5)
+- Query server (G5)
+
+Performance hacks:
+- Get rid of memory usage in html-translate-specials
+- Reuse a string buffer pool in fetch->tag?
+
+===============
+Architectural prototype:
+
+Planning:
+- Island planning (Polya:)
+  - What is a state?  Some variable; but complex, messy meaning
+  - Successive refinement (split plans top down, when can't search)
+    - Abstract templates (heirarchy) (find intermediate states to reduce search)
+    - Related situations (analogy) + structural correspondence library
+  - Search (think of everything you can, follow consequences, see if you
+            invoke a template or analogy as above)
+  - Simulation (choose next step by simulation, best-first)
+
+================
+Big problems:
+- Population
+- Energy
+- Water
+- Food
+- Transportation
+- Global warming 
+- Geologic events / catastrophies
+- Other resources
+- Wellness & Disease
+- Political stability
+- Poverty
+- Education
+- Preservation
+
+================
+= Commonsense in the context of World Wide Work (by 13th)
+-> Commonsense Compression (minimal BW requirement to
+     enable very low latency remote comm)
+   - Local computer computes intent of actions
+   - Transmits current guess
+   - Remote computer takes compact intent, current state
+     and drives actions and informs local model of possible
+     feedback models
+   - Human learns to control a slightly longer delay body
+-> Prosthetics + neural control
+   - Complex program learns what your brain means; a form of comm
+-> Human Robotics
+-> Communications & sensing
+-> Machine human interface
+   -> Multi-lingual speech
+   -> Human pilot -> machine
+   -> Machine -> human viewer
+   -> Virtual reality models / haptic chamber
+   -> Step towards the "holodeck"
+-> Psychology
+   -> Uncanny valley
+   -> Personalization
+-> Steps towards android
+
+= Universal humanoid work/embodiment
+- Un-embodied - servant/companion/teacher
+- Human use as training set
+
+= Biz model
+- Toyota/Honda
+
+==============
+
+OpenMind Study
+= limit miner to short sentences (launch on Deductive!?)
+- % of sentences > 10 words
+- fetch pages for 100 queries of < 10 words & full-text-index
+  Do query to find query phrases in pages
+- label queries with info re: size
+
+;;;
+;;; Useful Features
+;;;
+
+- Proper rule-based restarts in pcomp
+- Timeouts for stuck stacks in pcomp
+- Good query langauge for elephant
+- Auto debugging logs in pcomp
+
+
